@@ -1,0 +1,97 @@
+@media (max-width: 991px) {
+    .films .films__block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .collections .block{
+        grid-template-columns: 1fr;
+    }
+    
+    .text-img h4{
+        font-size: 20px;
+        margin-top: 23px;
+    }
+    
+    .text-img i{
+        color: #fff;
+        font-size: 35px;
+    }
+    
+    .series .series-grid{
+        grid-template-areas: 
+        "t1 t1 "
+        "t2 t3 "
+        "t4 t5";
+    }
+}
+
+@media (max-width: 585px){
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    
+    header .menu nav ul a{
+        padding: 20px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0px;
+    }
+    
+    header .poster i{
+        font-size: 25px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    
+    header .text{
+        padding:  50px;
+    }
+    
+    header .text h1{
+        font-size: 40px;
+    }
+    
+    header .text p{
+        font-size: 15px;
+    }
+    
+    header .text .btn{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    header .text .btn a{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    
+    .films .films__block{
+        grid-template-columns: 1fr;
+    }
+    
+    .fon-img a{
+        width: 100% ;
+    }
+    
+    .series .text p{
+        font-size: 15px;
+    }
+    
+    .series .text h4{
+        font-size: 36px;
+    }
+}
+
+
+
+
+
+
+
+
+
